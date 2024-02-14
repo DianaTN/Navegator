@@ -23,7 +23,9 @@ export default function MyTabs() {
                     tabBarIcon: ({ color, size }) => (
                         // Hereda el tamaño y el color del padre; por defecto se pone azul
                         <MaterialCommunityIcons name="home" size={size} color={color} />
-                    )
+                    ),
+                    // Desaparece el nombre de la pantalla arriba
+                    headerShown: false
                 }}
             />
 
