@@ -34,7 +34,9 @@ export default function MyTabs() {
                     tabBarLabel: 'Comunity',
                     tabBarIcon: ({ color, size }) => (
                         <MaterialCommunityIcons name="account-heart" size={size} color={color} />
-                    )
+                    ),
+                    // Añadido de notificaciones
+                    tabBarBadge: 3
                 }}
             />
 
