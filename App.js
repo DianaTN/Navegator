@@ -5,7 +5,7 @@ import MyTabs from "./MyTabs";
 export default function App() {
   return (
     <NavigationContainer>
-      <MyTabs></MyTabs>
+      <MyTabs />
     </NavigationContainer>
   );
 }
